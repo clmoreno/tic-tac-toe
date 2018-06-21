@@ -43,7 +43,7 @@ function TopBar(props) {
               </a>
             </Tooltip>
             <Tooltip id="github-link-tooltip" title="Github">
-              <a href="https://github.com/">
+              <a href="https://github.com/clmoreno">
                 <FontAwesomeIcon icon={faGithub} size="3x"/>
               </a>
             </Tooltip>
