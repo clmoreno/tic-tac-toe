@@ -1,10 +1,7 @@
 import React, {Component} from 'react';
-import {
-  createMuiTheme,
-  MuiThemeProvider,
-  Grid
-} from '@material-ui/core';
-
+import createMuiTheme from '@material-ui/core/styles/createMuiTheme';
+import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
+import Grid from '@material-ui/core/Grid';
 import TopBar from './TopBar';
 import GameBoard from './GameBoard';
 import PlayerIndicator from './PlayerIndicator';

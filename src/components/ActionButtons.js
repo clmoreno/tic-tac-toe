@@ -1,13 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import injectSheet from 'react-jss/lib/injectSheet';
-import {
-  Button,
-  Tooltip
-} from '@material-ui/core';
+import Button from '@material-ui/core/Button';
+import Tooltip from '@material-ui/core/Tooltip';
 import ClassNamesMerge from 'classnames';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import {faSyncAlt} from '@fortawesome/fontawesome-free-solid';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faSyncAlt} from '@fortawesome/free-solid-svg-icons';
 
 const actionBarStyles = theme => ({
   resetBtn: {

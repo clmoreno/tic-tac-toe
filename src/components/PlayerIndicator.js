@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Paper} from '@material-ui/core';
+import Paper from '@material-ui/core/Paper';
 import injectSheet from 'react-jss/lib/injectSheet';
 import ClassNamesMerge from 'classnames';
 import magicCss from 'magic.css/magic.css';

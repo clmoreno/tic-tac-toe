@@ -1,14 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {
-  AppBar,
-  Toolbar,
-  Typography,
-  Tooltip
-} from '@material-ui/core';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import {faHashtag} from '@fortawesome/fontawesome-free-solid';
-import {faGithub, faReact} from '@fortawesome/fontawesome-free-brands';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import Tooltip from '@material-ui/core/Tooltip';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faHashtag} from '@fortawesome/free-solid-svg-icons';
+import {faGithub, faReact} from '@fortawesome/free-brands-svg-icons';
 import Grid from '@material-ui/core/Grid';
 import injectSheet from 'react-jss/lib/injectSheet';
 

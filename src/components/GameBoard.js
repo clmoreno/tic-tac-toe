@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Grid, Paper} from '@material-ui/core';
+import Grid from '@material-ui/core/Grid';
+import Paper from '@material-ui/core/Paper';
 import FlipCard from './FlipCard';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import {faQuestion, faTimes} from '@fortawesome/fontawesome-free-solid';
-import {faCircle} from '@fortawesome/fontawesome-free-regular';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faQuestion, faTimes} from '@fortawesome/free-solid-svg-icons';
+import {faCircle} from '@fortawesome/free-regular-svg-icons';
 import injectSheet from 'react-jss/lib/injectSheet';
 
 const gameBoardStyles = theme => ({
